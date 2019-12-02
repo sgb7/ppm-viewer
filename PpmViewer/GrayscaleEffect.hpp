@@ -11,7 +11,10 @@ public:
 			for (int j = 0; j < doc.getWidth(); j++)
 			{
 				Pixel& p = doc[i][j];
-				
+				int avg_value = (p.red + p.green + p.blue) / 3;
+				p.red = avg_value;
+				p.green = avg_value;
+				p.blue = avg_value;
 			}
 		}
 	}

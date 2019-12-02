@@ -5,6 +5,8 @@
 #include "NegateRedEffect.hpp"
 #include "NegateGreenEffect.hpp"
 #include "NegateBlueEffect.hpp"
+#include "GrayscaleEffect.hpp"
+#include "AddNoiseEffect.hpp"
 
 enum class ImageEffectType
 {
@@ -14,6 +16,8 @@ enum class ImageEffectType
 	NegateRed = 4,
 	NegateGreen = 5,
 	NegateBlue = 6,
+	Grayscale = 7,
+	AddNoise = 8,
 	//TODO: add rest below
 };
 
@@ -41,6 +45,12 @@ public:
 			break;
 		case ImageEffectType::NegateBlue:
 			return new NegateBlueEffect{};
+			break;
+		case ImageEffectType::Grayscale:
+			return new GrayscaleEffect{};
+			break;
+		case ImageEffectType::AddNoise:
+			return new AddNoiseEffect{};
 			break;
 
 		default: 
