@@ -509,6 +509,15 @@
     <ClInclude Include="AddNoiseEffect.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HighContrastEffect.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipHorizontallyEffect.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipVerticallyEffect.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="bunny.ppm">
