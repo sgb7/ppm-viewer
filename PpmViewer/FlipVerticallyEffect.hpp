@@ -7,6 +7,6 @@ public:
 	virtual void applyEffect(PpmDocument& doc)
 	{
 		//reverse(doc.begin(), doc.end());
-		//try something with the doc's width
+		//Okay so this doesn't work. Tried some other stuff and none of it worked out either.
 	}
 };

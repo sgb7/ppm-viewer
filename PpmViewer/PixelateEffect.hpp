@@ -13,7 +13,7 @@ public:
 			for (int j = 0; j < doc.getWidth(); j+distance)
 			{
 				Pixel& p = doc[i][j];
-				
+				//Yeah, I don't know what I'm doing. Figure out later.
 			}
 		}
 	}
