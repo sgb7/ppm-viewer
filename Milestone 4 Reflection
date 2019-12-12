@@ -1,0 +1,14 @@
+  Milestone 4 Reflection
+
+	So right off the bat I’ll say I didn’t complete this, for two main reasons. First, I didn’t manage to figure out the blur, 
+  pixelate and rotate 90 effects in milestone 3, and still wasn’t able to here, though not for lack of trying. Second, with it 
+  being the end of the semester, I’ve had to allocate more time towards other things, so I couldn’t give this project as much 
+  attention as I would’ve liked.
+	I also wasn’t able to get flip vertically working on this milestone, because the way I did it last time just didn’t work with
+  the code set up in milestone 4. After several different attempts I decided to put it aside and come back later, and then 
+  didn’t get a chance to come back later. So yeah, it’s one of those things I guess. I was able to get ten of the effects 
+  running okay, at the very least.
+	Other than all that, I enjoyed this milestone. In all my previous versions of this project I never used the class Pixel, and 
+  I have to say I like it a lot better. Overall it just seems cleaner and more efficient, and was fun to put into use. Also, I 
+  loved the whole window pop-up thing, because it made it so much easier to see if my code was working alright. Working with 
+  fltk in general was just a neat experience, really. 
